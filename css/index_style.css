@@ -1,0 +1,1166 @@
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.navbar
+{
+    z-index: 99999999;
+}
+.navbar-nav
+{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-item
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-item a
+{
+    color: #384141 !important;
+}
+
+
+.nav-item-icon-f i
+{
+    position: relative;
+    padding-right: 6px;
+    padding-top: 4px; 
+
+}
+
+.nav-item-icon-f i:hover
+{
+    color: #007bff;
+}
+
+.nav-item-icon-t i
+{
+    position: relative;
+    padding-right: 6px;
+    padding-top: 4px; 
+}
+.nav-item-icon-t i:hover
+{
+    color: #007bff;
+}
+
+.nav-item-icon-in i
+{
+    position: relative;
+    margin-right: 6px;
+    padding-top: 4px; 
+
+}
+.nav-item-icon-in i:hover
+{
+    color: #dc3545;
+}
+
+
+
+
+
+
+.allback
+{
+    
+    height: 735px;
+    background-color: gray;
+}
+
+.top-r
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    animation-name: top-r;
+    animation-duration: 2s;
+}
+
+
+@keyframes top-r
+{
+    0%{top: -100; right: -350; opacity: 0.4;}
+    100%{top: 0; right: 0; opacity: 1;}
+}
+
+.top-l
+{
+    position: absolute;
+    top: 35;
+    left: -190;
+    width: 450px;
+    height: 450px;
+    animation-name: top-l;
+    animation-duration: 2s;
+        
+}
+
+@keyframes top-l
+{
+    0%{top: 0; left: -450; opacity: 0;}
+    100%{top: 35; left: -190; opacity: 1;}
+}
+
+.bottom-r
+{
+    position: absolute;
+    top: 370px;
+    right: -230px;
+    width: 500px;
+    animation-name: bottom-r;
+    animation-duration: 2s;
+}
+
+@keyframes bottom-r
+{
+    0%{top: 230; right: -400; opacity: 0;}
+    100%{top: 370; right: -230; opacity: 1;}
+}
+
+.bottom-pen
+{
+    position: absolute;
+    top: 250px;
+    right: 170px;
+    width: 220px;
+    animation-name: bottom-pen;
+    animation-duration: 2s;
+   
+}
+
+@keyframes bottom-pen
+{
+    0%{top: 200; right: -100; opacity: 0;}
+    100%{top: 250; right: 170; opacity: 1;}
+}
+
+
+.bottom-l
+{
+    position: absolute;
+    top: 265px;
+    left: -280;
+    width: 640px;
+    animation-name: bottom-l;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes bottom-l
+{
+    0%{top: 400; left: -500; opacity: 0;}
+    100%{top: 265; left: -280; opacity: 1;}
+}
+
+.bottom-la
+{
+    position: absolute;
+    top: 470;
+    left: 140px;
+    width: 200px;
+    animation-name: bottom-la;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes bottom-la
+{
+    0%{top: 900; left: -550; opacity: 0;}
+    100%{top: 470; left: 140; opacity: 1;}
+}
+
+
+
+.bottom-lb
+{
+    position: absolute;
+    top: 370px;
+    left: 95px;
+    width: 150px;
+    animation-name: bottom-lb;
+    animation-duration: 1.5s;
+}
+
+
+
+@keyframes bottom-lb
+{
+    0%{top: 100; left: -600; opacity: 0;}
+    100%{top: 370; left: 95; opacity: 1;}
+}
+
+
+
+.write
+{
+    
+    position: absolute;
+    z-index: 3456465;
+    text-align: center;
+    width: 100%;
+    padding-top: 18%;
+}
+
+.write h1
+{
+    color: gray;
+    font-size: 40px;
+    font-weight: 200 !important;
+    color: #384141;
+    animation-name: h1;
+    animation-duration: 3s;
+    position: relative;
+        
+}
+
+
+@keyframes h1
+{
+    0%{right: 100px; opacity: 0;}
+    100%{right: 0; opacity: 1;}
+}
+.write h3
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: #384141;
+    animation-name: h3;
+    animation-duration: 3s;
+    position: relative;
+}
+
+@keyframes h3
+{
+    0%{top: 20px; opacity: 0.5;}
+    100%{ top: 0; opacity: 1;}
+}
+.write p
+{
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+    padding-top: 10px;
+    animation-name: p;
+    animation-duration: 3s;
+    position: relative;
+}
+
+
+@keyframes p
+{
+    0%{top: 100px; opacity: 0.5;}
+    100%{ top: 0; opacity: 1;}
+}
+.btn-primary
+{
+    background-color: #b2cb20;
+    padding: 8px 30px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: btn;
+    animation-duration: 3s;
+    position: relative;
+}
+
+
+@keyframes btn
+{
+    0%{top: 250px; opacity: 0.5;}
+    100%{ top: 0; opacity: 1;}
+}
+.btn:hover
+{
+    background-color: #60c58b;
+}
+
+.btn
+{
+    border: none;
+}
+
+
+
+
+
+
+
+.sec2
+{
+    padding-bottom: 150px;
+}
+
+.sec2 h2
+{
+    background-color: #fff;
+    z-index: 5599;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 45px;
+    color: #383838;
+}
+
+.sec2 h2 span
+{
+    font-weight: 600;
+}
+
+.row
+{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.se2
+{
+    padding: 25px;
+}
+.se2 h3
+{
+    color: #384141;
+    font-size: 22px;
+    
+}
+
+
+.se2 p
+{
+    color: #384141;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #a5a5a5;
+}
+.sec2-a
+{
+    transition: all 1s;
+}
+.sec2-a:hover
+{
+    background-color: #b2cb20;
+    border-radius: 6px;
+}
+.sec2-a:hover i
+{
+    color: #fff;
+}
+
+.sec2-a:hover h3
+{
+    color: #fff;
+}
+.sec2-a:hover p
+{
+    color: #fff;
+}
+
+.sec2-a i
+{
+    color: #b2cb20;
+}
+.sec2-b
+{
+    transition: all 1s;
+    
+}
+.sec2-b:hover
+{
+    background-color: 4fb8aa;
+    border-radius: 6px;
+}
+.sec2-b:hover i
+{
+    color: #fff;
+}
+.sec2-b:hover h3
+{
+    color: #fff;
+}
+.sec2-b:hover p
+{
+    color: #fff;
+}
+.sec2-b i
+{
+    color: #4fb8aa;
+}
+
+.sec2-c
+{
+    transition: all 1s;
+}
+.sec2-c:hover
+{
+    background-color: #e84455;
+    border-radius: 6px;
+}
+.sec2-c i
+{
+    color: #e84455;
+}
+.sec2-c:hover i
+{
+    color: #fff;
+}
+.sec2-c:hover h3
+{
+    color: #fff;
+}
+
+
+
+.sec2-d
+{
+    transition: all 1s;
+}
+.sec2-d:hover
+{
+    background-color: #e84455;
+    border-radius: 6px;
+}
+
+.sec2-d i
+{
+    color: #e84455;
+}
+.sec2-d:hover i
+{
+    color: #fff;
+}
+.sec2-d:hover h3
+{
+    color: #fff;
+}
+.sec2-d:hover p
+{
+    color: #fff;
+}
+
+
+
+
+
+.sec2-e
+{
+    transition: all 1s;
+}
+.sec2-e i
+{
+    color: #b2cb20;
+}
+.sec2-e:hover
+{
+    background-color: #b2cb20;
+    border-radius: 6px;
+}
+.sec2-e:hover i
+{
+    color: #fff;
+}
+.sec2-e:hover h3
+{
+    color: #fff;
+}
+.sec2-e:hover p
+{
+    color: #fff;
+}
+
+
+
+
+
+.sec2-f
+{
+    transition: all 1s;
+}
+.sec2-f i
+{
+    color: #4fb8aa;
+}
+.sec2-f:hover
+{
+    background-color: #4fb8aa;
+    border-radius: 6px;
+}
+.sec2-f:hover i
+{
+    color: #fff;
+}
+.sec2-f:hover h3
+{
+    color: #fff;
+}
+.sec2-f:hover p
+{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sec3
+{
+    height: 450px;
+    background-image:url(../Pics/parallax1.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.btn-sec3
+{
+    border: solid 1px #fff;
+    padding: 13px 45px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.btn-sec3:hover
+{
+    background-color: #fff;
+    color: gray;
+}
+
+.sec3 p
+{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.sec3 h1
+{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec4
+{
+    background-image: url(../Pics/counter.jpg);
+    background-size: 100%;
+    height: 650px;
+    background-attachment: fixed;
+}
+
+.row4
+{
+    margin-top: 40px;
+    color: #384141;
+    padding: 20px;
+}
+
+.sec4 h4
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.sec4 p
+{
+    font-size: 18px;
+}
+
+.sec4-a i
+{
+    color: #4fb8aa;
+}
+
+.sec4-b i
+{
+    color: #b2cb20;
+}
+
+
+
+.sec4-c i
+{
+    color: #e84455;
+}
+
+.sec4-d i
+{
+    color: #e16a08;
+}
+
+
+.sec5
+{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-top: 150px;
+    color: #384141;
+    padding-bottom: 300px;
+}
+.sec5 h2
+{
+    font-size: 45px;
+}
+.sec5 span
+{
+    font-weight: 100;
+}
+
+.sec5 p
+{
+    color: #a5a5a5;
+    font-size: 14px;
+}
+.sec5 p:hover
+{
+    color: #fff;
+}
+
+.team1 , .team2 , .team3
+{
+    position: absolute;
+    z-index: 3232;
+    top: 80%;
+    left: 30%;
+}
+
+
+.sec5-a
+{
+    background-color: #fff;
+    padding: 80px 50px;
+    position: relative;
+    border-radius: 10px; 
+    transition: all 1s;
+}
+.sec5-a:hover
+{
+    background-color: #e84455;
+}
+
+
+.sec5-b
+{
+    background-color: #fff;
+    padding: 80px 50px;
+    border-radius: 10px; 
+    transition: all 1s;
+    position: relative;
+}
+
+.sec5-b:hover
+{
+    background-color: #4fb8aa;
+
+}
+
+
+
+.sec5-c
+{
+    background-color: #fff;
+    padding: 80px 50px;
+    border-radius: 10px; 
+    transition: all 1s;
+    position: relative;
+}
+.sec5-c:hover
+{
+    background-color: #b2cb20;
+
+}
+
+.team1 img , .team2 img , .team3 img
+{
+    border-radius: 50%;
+    width: 60%;
+}
+
+
+.icon1
+{
+    background-color: #e84455;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -30px;
+    right: 42%;
+}
+.icon1 i
+{
+    color: #fff;
+}
+
+.icon2
+{
+    background-color: #4fb8aa;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -30px;
+    right: 42%;
+    
+}
+.icon2 i
+{
+    color: #fff;
+}
+.icon3
+{
+    background-color: #b2cb20;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -30px;
+    right: 42%;
+    
+}
+
+.icon3 i
+{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.sec6
+{
+    
+    background-color: #fff;
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 40px;
+}
+
+
+.sec6 h2
+{
+    font-size: 45px;
+}
+.sec6 span
+{
+    font-weight: 200;
+}
+.sec6 p
+{
+    font-size: 14px;
+    color: #a5a5a5;
+    margin-top: 20px;    
+}
+
+.sec6 .basic
+{
+    background-color: #fff;
+    padding: 20px;
+    border: solid 1px #a8a8a8;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.sec6 h6
+{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+.sec6 h6 span
+{
+    font-size: 50px;
+}
+
+.sec6 ul
+{
+    color: #a5a5a5;
+    list-style-type: none;
+    text-align: center;
+    padding: 25px;
+}
+.sec6 ul li
+{
+    padding-top: 20px;
+}
+
+
+.sec6 .basic:hover
+{
+    background-color: #4fb8aa;
+    color: #fff;
+}
+
+.sec6 .basic:hover ul
+{
+    color: #fff;
+}
+
+
+.sec6 .basic:hover p
+{
+    color: #fff;
+}
+.btn-basic
+{
+    background-color: #4fb8aa;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.sec6 .basic:hover .btn-basic
+{
+    border: solid 1px #fff;
+}
+
+
+
+
+
+
+
+.sec6 .Popular
+{
+    background-color: #fff;
+    padding: 20px;
+    border: solid 1px #a8a8a8;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.sec6 .popular h6
+{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+.sec6 .popular h6 span
+{
+    font-size: 50px;
+}
+
+.sec6 .popular ul
+{
+    color: #a5a5a5;
+    list-style-type: none;
+    text-align: center;
+    padding: 25px;
+}
+.sec6 .popular ul li
+{
+    padding-top: 20px;
+}
+
+
+.sec6 .popular:hover
+{
+    background-color: #b2cb20;
+    color: #fff;
+}
+
+.sec6 .popular:hover ul
+{
+    color: #fff;
+}
+
+
+.sec6 .popular:hover p
+{
+    color: #fff;
+}
+.btn-popular
+{
+    background-color: #b2cb20;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.sec6 .popular:hover .btn-popular
+{
+    border: solid 1px #fff;
+}
+
+
+
+
+
+
+.sec6 .Enterprise
+{
+    background-color: #fff;
+    padding: 20px;
+    border: solid 1px #a8a8a8;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.sec6 .Enterprise h6
+{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+.sec6 .Enterprise h6 span
+{
+    font-size: 50px;
+}
+
+.sec6 .Enterprise ul
+{
+    color: #a5a5a5;
+    list-style-type: none;
+    text-align: center;
+    padding: 25px;
+}
+.sec6 .Enterprise ul li
+{
+    padding-top: 20px;
+}
+
+
+.sec6 .Enterprise:hover
+{
+    background-color: #e84455;
+    color: #fff;
+}
+
+.sec6 .Enterprise:hover ul
+{
+    color: #fff;
+}
+
+
+.sec6 .Enterprise:hover p
+{
+    color: #fff;
+}
+
+.btn-Enterprise
+{
+    background-color: #e84455;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.sec6 .Enterprise:hover .btn-Enterprise
+{
+    border: solid 1px #fff;
+}
+
+
+
+
+
+
+
+
+
+.sec7
+{
+    
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    
+}
+
+
+.sec7 h2
+{
+    font-size: 45px;
+}
+.sec7 span
+{
+    font-weight: 200;
+}
+
+.team-bk
+{
+    position: relative;
+    overflow: hidden;
+
+    
+}
+.team-text
+{
+    background-color: #fff;
+
+}
+.team-text h3
+{
+    padding-top: 20px;
+}
+.team-text p
+{
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.team-bk img
+{
+    transition: all 1s;
+}
+.team-bk:hover img
+{
+    transform: scale(1.08);
+    transition: all 1s;
+
+
+}
+
+
+
+
+
+.sec8
+{
+    background-color: #212529;
+    text-align: center;
+    height: 250px;
+}
+
+.sec8 p
+{
+    color: #fff;
+}
+
+
+
+
+.sec8 ul li
+{
+    
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 2px;
+    margin-top: 100px;
+}
+
+.facebook
+{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding-top: 6px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s;
+}
+.facebook:hover
+{
+    background-color: #0751a0;
+}
+
+.twitter
+{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding-top: 7px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s;
+}
+.twitter:hover
+{
+    background-color: #17a2b8;
+}
+.dribble
+{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding-top: 7px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s;
+}
+.dribble:hover
+{
+    background-color: #e83e8c;
+}
+.instagram
+{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding-top: 7px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s;
+}
+.instagram:hover
+{
+    background-color: #e83e8c;
+}
+.whatsapp
+{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding-top: 7px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s;
+}
+.whatsapp:hover
+{
+    background-color: #20c997;
+}
