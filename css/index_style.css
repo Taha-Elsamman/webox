@@ -9,6 +9,7 @@ body
 .navbar
 {
     z-index: 99999999;
+    background-color: #f6f6f6;
 }
 .navbar-nav
 {
